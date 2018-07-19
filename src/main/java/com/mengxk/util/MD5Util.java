@@ -22,6 +22,10 @@ public class MD5Util {
         }
     }
 
+    public static String getMD5String(String s){
+        return getMD5String(s.getBytes());
+    }
+
     public static String getMD5String(byte[] bytes) {
         messageDigest.update(bytes);
         return bufferToHex(messageDigest.digest());
@@ -42,7 +46,7 @@ public class MD5Util {
 
     private static void appendHexPair(byte aByte, StringBuffer stringBuffer) {
         char c0 = HEXDIGITS[(aByte & 0xf0) >> 4];
-        char c1 = HEXDIGITS[aByte * 0xf];
+        char c1 = HEXDIGITS[aByte & 0xf];
         stringBuffer.append(c0);
         stringBuffer.append(c1);
     }
