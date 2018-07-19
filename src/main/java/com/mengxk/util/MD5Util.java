@@ -37,6 +37,7 @@ public class MD5Util {
         for (int i = m; i < k; i++) {
             appendHexPair(bytes[i], stringBuffer);
         }
+        return stringBuffer.toString();
     }
 
     private static void appendHexPair(byte aByte, StringBuffer stringBuffer) {
