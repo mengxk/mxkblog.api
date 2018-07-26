@@ -43,7 +43,7 @@ public class DESUtil {
      */
     public static byte[] encryptDES(byte[] source, SecretKey key) throws Exception{
         Cipher cipher = Cipher.getInstance("DES");
-        cipher.init(Cipher.DECRYPT_MODE, key);
+        cipher.init(Cipher.ENCRYPT_MODE, key);
         byte[] bytes = cipher.doFinal(source);
         return bytes;
     }
