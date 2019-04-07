@@ -1,8 +1,7 @@
 package com.mengxk.util;
 
+import com.mengxk.utils.MD5Util;
 import org.junit.Test;
-
-import static org.junit.Assert.*;
 
 /**
  * Created by mengxk on 2018/7/19.

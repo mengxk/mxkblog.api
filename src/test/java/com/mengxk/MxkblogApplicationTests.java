@@ -11,6 +11,8 @@ public class MxkblogApplicationTests {
 
 	@Test
 	public void contextLoads() {
+		String all = String.join("/", "S", "M","L");
+		System.out.println(all);
 	}
 
 }

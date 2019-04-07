@@ -1,4 +1,4 @@
-package com.mengxk.util;
+package com.mengxk.utils;
 
 import javax.crypto.Cipher;
 import javax.crypto.KeyGenerator;
@@ -7,7 +7,7 @@ import javax.crypto.spec.SecretKeySpec;
 import java.io.IOException;
 import java.security.NoSuchAlgorithmException;
 
-import static com.mengxk.util.BASE64Util.base642byte;
+import static com.mengxk.utils.BASE64Util.base642byte;
 
 
 /**

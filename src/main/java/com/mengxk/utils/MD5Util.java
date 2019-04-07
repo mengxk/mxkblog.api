@@ -1,4 +1,4 @@
-package com.mengxk.util;
+package com.mengxk.utils;
 
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;

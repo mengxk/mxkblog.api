@@ -1,5 +1,6 @@
 package com.mengxk.util;
 
+import com.mengxk.utils.DESUtil;
 import org.junit.Test;
 
 import javax.crypto.SecretKey;
